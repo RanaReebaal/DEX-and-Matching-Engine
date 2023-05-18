@@ -1,0 +1,66 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "OrderbookErrors",
+  "sourceName": "contracts/errors/OrderbookErrors.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "EscrowToBuyerError",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "InactiveOrder",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "InvalidFeeValue",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "LackingFundsForFees",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "LackingFundsForTransaction",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "NonOwnerCantCancelOrder",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "QuantityExceedsOrderAmount",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "SellingTokenNotBool",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "TransferToEscrowError",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "ZeroBuyQuantity",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "ZeroTokenAmount",
+      "type": "error"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea264697066735822122083ffa52a1434f9ddfc90dbd8b5af70f4641b00d41cab6f5dce2c308e0f83c6ff64736f6c63430008120033",
+  "deployedBytecode": "0x6080604052600080fdfea264697066735822122083ffa52a1434f9ddfc90dbd8b5af70f4641b00d41cab6f5dce2c308e0f83c6ff64736f6c63430008120033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

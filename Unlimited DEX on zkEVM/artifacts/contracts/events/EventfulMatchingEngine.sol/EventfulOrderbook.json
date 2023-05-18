@@ -1,0 +1,99 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "EventfulOrderbook",
+  "sourceName": "contracts/events/EventfulMatchingEngine.sol",
+  "abi": [
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint128",
+          "name": "token1Amt",
+          "type": "uint128"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint128",
+          "name": "token2Amt",
+          "type": "uint128"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint8",
+          "name": "sellingToken1",
+          "type": "uint8"
+        }
+      ],
+      "name": "FoKOrder",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint128",
+          "name": "token1Amt",
+          "type": "uint128"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint128",
+          "name": "token2Amt",
+          "type": "uint128"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint8",
+          "name": "sellingToken1",
+          "type": "uint8"
+        }
+      ],
+      "name": "IoCOrder",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "id",
+          "type": "uint256"
+        },
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "position",
+          "type": "uint256"
+        }
+      ],
+      "name": "MakerOrderCreated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint128",
+          "name": "tokenAmt",
+          "type": "uint128"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint8",
+          "name": "spendingToken1",
+          "type": "uint8"
+        }
+      ],
+      "name": "TakerOrder",
+      "type": "event"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212200cff173b4b854ca516d6e5950feb1235b3ad2c4d2cb274a7ea8850dacd6373e464736f6c63430008120033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212200cff173b4b854ca516d6e5950feb1235b3ad2c4d2cb274a7ea8850dacd6373e464736f6c63430008120033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

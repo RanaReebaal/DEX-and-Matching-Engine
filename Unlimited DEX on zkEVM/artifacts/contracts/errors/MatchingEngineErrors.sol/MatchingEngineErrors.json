@@ -1,0 +1,16 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MatchingEngineErrors",
+  "sourceName": "contracts/errors/MatchingEngineErrors.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "FillOrKillNotFilled",
+      "type": "error"
+    }
+  ],
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212200f43fabeec111dd238f745c28d66f22aed1920a6d5a82fe796ac308fc33db47964736f6c63430008120033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212200f43fabeec111dd238f745c28d66f22aed1920a6d5a82fe796ac308fc33db47964736f6c63430008120033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
